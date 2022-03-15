@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#F14B2C"
         android:orientation="vertical">
 
 
@@ -18,10 +19,10 @@
             android:background="@drawable/blue_bg">
 
             <ImageView
-                android:layout_width="77dp"
-                android:layout_height="77dp"
+                android:layout_width="330dp"
+                android:layout_height="230dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="93dp"
+                android:layout_marginTop="0dp"
                 android:src="@drawable/logo" />
 
         </FrameLayout>
@@ -115,7 +116,7 @@
             android:paddingTop="14dp"
             android:paddingBottom="14dp"
             android:text="Login"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="12sp" />
 
         <TextView
@@ -125,7 +126,7 @@
             android:layout_marginTop="12dp"
             android:fontFamily="@font/poppins_medium"
             android:text="FORGOT PASSWORD ?"
-            android:textColor="#1566e0"
+            android:textColor="#000000"
             android:textSize="10.5sp" />
 
         <LinearLayout
@@ -147,7 +148,7 @@
                     android:fontFamily="@font/poppins_regular"
                     android:gravity="center_horizontal"
                     android:text="or"
-                    android:textColor="#aeaeae"
+                    android:textColor="#FFFFFF"
                     android:textSize="13.3sp" />
 
 
@@ -156,7 +157,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="35dp"
+                android:layout_marginBottom="30dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -175,13 +176,7 @@
                 <ImageView
                     android:layout_width="26.7dp"
                     android:layout_height="26.7dp"
-                    android:layout_marginRight="20dp"
                     android:src="@drawable/twitter" />
-
-                <ImageView
-                    android:layout_width="26.7dp"
-                    android:layout_height="26.7dp"
-                    android:src="@drawable/linkedin" />
 
             </LinearLayout>
 
